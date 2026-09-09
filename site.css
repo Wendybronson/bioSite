@@ -1,0 +1,533 @@
+/*
+    Wendy Bronson
+    09/09/2026
+    Assignment 6.3: bioSite Development
+*/
+
+/* =========================
+   General Page Styles
+   ========================= */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #F6F3EA;
+    color: #2B2B2B;
+}
+
+/* =========================
+   Headings and Text
+   ========================= */
+
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 44px;
+    font-weight: bold;
+    color: #2F5D50;
+    margin: 0;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2F5D50;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2F5D50;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #2B2B2B;
+}
+
+/* =========================
+   Header
+   ========================= */
+
+header {
+    width: 84%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 22px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* =========================
+   Brand and Logo
+   ========================= */
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo-box {
+    width: 72px;
+    height: 72px;
+    background-color: #2F5D50;
+    border: 2px solid #B79C76;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.logo-img {
+    width: 58px;
+    height: 58px;
+    object-fit: contain;
+}
+
+.brand-name {
+    height: 72px;
+    padding: 0 24px;
+    background-color: #B79C76;
+    color: #2B2B2B;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* =========================
+   Navigation
+   ========================= */
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #2B2B2B;
+    text-decoration: none;
+    margin-left: 28px;
+}
+
+nav a:hover {
+    color: #2F5D50;
+    text-decoration: underline;
+}
+
+/* =========================
+   Main Content
+   ========================= */
+
+main {
+    width: 84%;
+    max-width: 1100px;
+    margin: 35px auto 0;
+}
+
+/* =========================
+   Hero Section
+   ========================= */
+
+.hero {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.hero figure {
+    margin: 0 auto;
+}
+
+.hero img {
+    width: 520px;
+    max-width: 100%;
+    height: 310px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.hero figcaption {
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #2B2B2B;
+}
+
+/* =========================
+   Meet David Section
+   ========================= */
+
+.meet-david {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.meet-david h2 {
+    margin-bottom: 16px;
+}
+
+.meet-card {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 28px 32px;
+    background-color: #7C9A84;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    box-sizing: border-box;
+}
+
+.meet-card img {
+    width: 145px;
+    height: 145px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.meet-text {
+    flex: 1;
+    text-align: left;
+}
+
+.meet-text p {
+    margin: 0;
+}
+
+.meet-text .button {
+    display: table;
+    margin: 22px auto 0;
+}
+
+/* =========================
+   Highlight Cards
+   ========================= */
+
+.highlights {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 28px;
+    margin-bottom: 65px;
+}
+
+.card {
+    background-color: #7C9A84;
+    padding: 25px 22px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.highlights .card {
+    flex: 1;
+    max-width: 300px;
+    min-height: 230px;
+    text-align: center;
+}
+
+.highlights h3 {
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.card p {
+    margin-bottom: 0;
+}
+
+/* =========================
+   Buttons
+   ========================= */
+
+.button {
+    display: inline-block;
+    background-color: #2F5D50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.button:hover {
+    background-color: #B79C76;
+    color: #2B2B2B;
+}
+
+/* =========================
+   General Images
+   ========================= */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    text-align: center;
+}
+
+/* =========================
+   Footer
+   ========================= */
+
+footer {
+    background-color: #2F5D50;
+    color: white;
+    margin-top: 55px;
+    padding: 32px 8%;
+}
+
+.footer-content {
+    position: relative;
+    max-width: 1100px;
+    min-height: 90px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-content > p {
+    color: white;
+    margin: 30px 0 0;
+    font-size: 14px;
+}
+
+.contact {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    text-align: right;
+}
+
+.contact p {
+    margin: 2px 0;
+    color: white;
+    font-size: 14px;
+}
+/* =========================
+   About Page
+   ========================= */
+
+.about-intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-portrait {
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.about-story {
+    margin-bottom: 50px;
+}
+
+.about-story h2 {
+    text-align: center;
+}
+
+.about-story .card {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.personal-highlight {
+    text-align: center;
+    margin-bottom: 60px;
+}
+/* =========================
+   About Page
+   ========================= */
+
+.about-intro {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.about-intro h2 {
+    margin-bottom: 20px;
+}
+
+.about-portrait {
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.about-intro figcaption {
+    margin-top: 8px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.about-story {
+    margin-bottom: 55px;
+}
+
+.about-story h2 {
+    text-align: center;
+}
+
+.about-story .card {
+    margin-bottom: 18px;
+    
+}
+
+.about-story .card p:first-child {
+    margin-top: 0;
+}
+
+.about-story .card p:last-child {
+    margin-bottom: 0;
+}
+
+.personal-highlight {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.personal-highlight .card {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 28px;
+}
+
+
+/* =========================
+   Hobbies Page
+   ========================= */
+
+.hobbies-intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hobbies-intro p {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.hobby-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.hobby-section.reverse {
+    flex-direction: row-reverse;
+}
+
+.hobby-image,
+.hobby-text {
+    flex: 1;
+}
+
+.hobby-image img {
+    width: 100%;
+    max-width: 420px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.hobby-text {
+    text-align: left;
+}
+
+.hobby-text h3 {
+    margin-top: 0;
+}
+/* =========================
+   Responsive Layout
+   ========================= */
+
+@media screen and (max-width: 768px) {
+
+    header {
+        width: 90%;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .brand {
+        justify-content: center;
+    }
+
+    nav {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        margin: 5px 12px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+
+    .meet-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .meet-text {
+        text-align: center;
+    }
+
+    .highlights {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .highlights .card {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    /* About page */
+    .about-portrait {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+    }
+
+    /* Hobbies page */
+    .hobby-section,
+    .hobby-section.reverse {
+        flex-direction: column;
+    }
+
+    .hobby-text {
+        text-align: center;
+    }
+
+    .contact {
+        position: static;
+        margin-top: 18px;
+        text-align: center;
+    }
+
+    .footer-content > p {
+        margin-top: 10px;
+    }
+}
