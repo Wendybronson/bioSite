@@ -1,7 +1,7 @@
 /*
     Wendy Bronson
-    09/09/2026
-    Assignment 6.3: bioSite Development
+    September 15, 2026
+    bioSite: Development and GitHub Pages Deployment
 */
 
 /* =========================
@@ -394,8 +394,8 @@ footer {
 }
 
 .about-story .card {
-    margin-bottom: 18px;
-    
+    max-width: 950px;
+    margin: 0 auto 18px;
 }
 
 .about-story .card p:first-child {
