@@ -1,7 +1,7 @@
 /*
     Wendy Bronson
-    September 15, 2026
-    bioSite: Development and GitHub Pages Deployment
+    October 4, 2026
+    Module 10.2: bioSite Final Submission
 */
 
 /* =========================
@@ -316,18 +316,6 @@ footer {
     font-size: 14px;
 }
 
-.contact {
-    position: absolute;
-    top: 8px;
-    right: 0;
-    text-align: right;
-}
-
-.contact p {
-    margin: 2px 0;
-    color: white;
-    font-size: 14px;
-}
 /* =========================
    About Page
    ========================= */
@@ -360,6 +348,8 @@ footer {
     text-align: center;
     margin-bottom: 60px;
 }
+
+
 /* =========================
    About Page
    ========================= */
@@ -533,13 +523,52 @@ footer {
         text-align: center;
     }
 
-    .contact {
-        position: static;
-        margin-top: 18px;
-        text-align: center;
-    }
-
+   
     .footer-content > p {
         margin-top: 10px;
     }
+}
+
+
+/* =========================
+   Module 10.2 Final Updates
+   ========================= */
+
+/* About Page - Shorter Sections */
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.about-grid .card h3 {
+    margin: 0 0 10px;
+}
+
+.about-grid .card p + p {
+    margin-top: 14px;
+}
+
+/* Hobbies Page - Photo Captions */
+
+.hobby-image figure {
+    margin: 0;
+}
+
+.hobby-image figcaption {
+    margin-top: 8px;
+    font-style: italic;
+}
+
+/* Responsive About Page */
+
+@media screen and (max-width: 768px) {
+
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
 }
