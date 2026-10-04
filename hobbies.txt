@@ -1,7 +1,8 @@
+
 <!--
     Wendy Bronson
     October 4, 2026
-    bioSite: Development and GitHub Pages Deployment
+    Module 10.2: bioSite Final Submission
 -->
 
 <!DOCTYPE html>
@@ -26,9 +27,7 @@
                      class="logo-img">
             </div>
 
-            <h1 class="brand-name">
-                David Bronson
-            </h1>
+            <h1 class="brand-name">David Bronson</h1>
 
         </div>
 
@@ -47,12 +46,15 @@
             <h2>Hobbies &amp; Interests</h2>
 
             <p>
-                David enjoys activities that allow him to relax, spend time
-                outdoors, and experience new places. Some of his favorite
-                interests include boating, traveling, and enjoying nature.
+                David enjoys activities that allow him to relax,
+                spend time outdoors, and experience new places.
+                Some of his favorite interests include boating,
+                traveling, and enjoying nature.
             </p>
 
         </section>
+
+        <!-- Boating Section -->
 
         <section class="hobby-section">
 
@@ -74,16 +76,19 @@
                 <h3>Boating &amp; the Lake</h3>
 
                 <p>
-                    David has enjoyed spending time at the lake since he was a
-                    teenager. Being around the water gives him a chance to relax,
-                    get away from everyday responsibilities, and enjoy the
-                    outdoors. Boating continues to be one of the activities he
-                    enjoys most.
+                    David has enjoyed spending time at the lake
+                    since he was a teenager. Being around the water
+                    gives him a chance to relax, get away from
+                    everyday responsibilities, and enjoy the outdoors.
+                    Boating continues to be one of the activities
+                    he enjoys most.
                 </p>
 
             </div>
 
         </section>
+
+        <!-- Travel Section -->
 
         <section class="hobby-section reverse">
 
@@ -93,9 +98,7 @@
                     <img src="images/cancun-mexico.jpeg"
                          alt="Beach scene from a trip to Cancun, Mexico">
 
-                    <figcaption>
-                        Travel
-                    </figcaption>
+                    <figcaption>Travel</figcaption>
                 </figure>
 
             </div>
@@ -105,21 +108,68 @@
                 <h3>Travel</h3>
 
                 <p>
-                    David enjoys traveling to places he has never visited before.
-                    He especially likes the experience of seeing something new
-                    for the first time. His travels have included Mexico and an
-                    Alaskan cruise, giving him opportunities to experience
+                    David enjoys traveling to places he has never
+                    visited before. He especially likes the experience
+                    of seeing something new for the first time.
+                    His travels have included Mexico and an Alaskan
+                    cruise, giving him opportunities to experience
                     different scenery and destinations.
                 </p>
+
                 <p>
-                   <a class="button" href="https://www.expedia.com/">
-                      Explore Travel on Expedia
-                   </a>
+                    <a class="button"
+                       href="https://www.expedia.com/">
+                        Explore Travel on Expedia
+                    </a>
                 </p>
 
             </div>
 
         </section>
+
+        <!-- NEW FOURTH PHOTO: ALASKA -->
+
+        <section class="hobby-section">
+
+            <div class="hobby-image">
+
+                <figure>
+                    <img src="images/Travelphoto.jpg"
+                         alt="Scenic view of the Alaskan mountains and water"
+                         loading="lazy">
+
+                    <figcaption>
+                        A Memorable Alaska View
+                    </figcaption>
+                </figure>
+
+            </div>
+
+            <div class="hobby-text card">
+
+                <h3>A Memorable Alaska View</h3>
+
+                <p>
+                    One of the places David has explored is Alaska.
+                    The mountains and wide stretches of water are
+                    a good example of what he enjoys about traveling.
+                    For David, visiting a new destination is about
+                    more than just getting away. He enjoys seeing
+                    different places and experiencing something
+                    for the first time.
+                </p>
+
+                <p>
+                    This photograph captures some of the beautiful
+                    scenery from the trip and adds another personal
+                    glimpse into his love of travel and the outdoors.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Nature Section -->
 
         <section class="hobby-section">
 
@@ -141,11 +191,13 @@
                 <h3>Nature &amp; the Outdoors</h3>
 
                 <p>
-                    David enjoys almost anything that involves nature. Even
-                    something as simple as taking a walk or watching leaves move
-                    in the breeze can be relaxing. Spending time outdoors gives
-                    him the chance to slow down and appreciate things that are
-                    easy to overlook during a busy week.
+                    David enjoys almost anything that involves
+                    nature. Even something as simple as taking
+                    a walk or watching leaves move in the breeze
+                    can be relaxing. Spending time outdoors gives
+                    him the chance to slow down and appreciate
+                    things that are easy to overlook during
+                    a busy week.
                 </p>
 
             </div>
@@ -157,20 +209,10 @@
     <footer>
 
         <div class="footer-content">
-
             <p>&copy; 2026 David Bronson bioSite</p>
-
-            <div class="contact">
-                <p>Contact (Sample Information)</p>
-                <p>david.bronson@example.com</p>
-                <p>800-855-5555</p>
-            </div>
-
-
         </div>
 
     </footer>
 
 </body>
-
 </html>
